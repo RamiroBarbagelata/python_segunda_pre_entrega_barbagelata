@@ -1,7 +1,6 @@
 from package_1.module_1 import Cliente, delete_purchase
 from package_1.module_2 import update_address
 
-
 # Crear un cliente
 customer_1 = Cliente("Juan", "Pérez", 30, "juan@example.com", "Av. San Martín 345")
 print(customer_1)
