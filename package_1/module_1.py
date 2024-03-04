@@ -14,6 +14,7 @@ class Cliente:
         print(f"{self.name} {self.last_name} compro {product} con {payment_method}")
             
 
+
 def delete_purchase(customer, product):
     if customer.product == customer.product:
         print(f"{customer.name} {customer.last_name} elimino la compra de {product} de su carrito de compras.")

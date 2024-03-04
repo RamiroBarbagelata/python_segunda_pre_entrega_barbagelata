@@ -13,6 +13,7 @@ update_address(customer_1, "Calle Falsa 4321")
 # Realizar una compra
 customer_1.product_purchase("PlayStation 5", "tarjeta de crédito")
 
+
 # Eliminar la compra
 delete_purchase(customer_1, "PlayStation 5")
 
