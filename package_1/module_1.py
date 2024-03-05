@@ -8,12 +8,14 @@ class Cliente:
         self.product = ""
     
     def __str__(self):
-        return f"Fue un exito el registro de {self.name} {self.last_name} {self.age} años {self.email} que vive en {self.address}"
+        return f"Fue un exito el registro de: {self.name} {self.last_name} {self.age} años {self.email} que vive en {self.address}"
         
-    def product_purchase(self, product, payment_method):
+def product_purchase(self, product, payment_method):
         print(f"{self.name} {self.last_name} compro {product} con {payment_method}")
             
-            
+def update_address(customer, new_address):
+    customer.address = new_address
+    print(f"El domicilio de {customer.name} {customer.last_name} se ha actualizado a: {customer.address}")          
             
 def delete_purchase(customer, product):
     if customer.product == customer.product:
